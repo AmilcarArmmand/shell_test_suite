@@ -1,4 +1,7 @@
-# run ls
+#!/bin/bash
+#
+# Run a mix of ls and /bin/ls many times, with spaces
+
 command="ls
 
 
