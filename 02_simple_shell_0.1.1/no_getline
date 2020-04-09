@@ -20,7 +20,7 @@ echo "$command" | $LTRACE -bc -o $LTRACEOUTPUTFILE $SHELL > $OUTPUTFILE 2> /dev/
 $SLEEP $SLEEPSECONDS
 
 # copy saved output for debugging
-cat $OUTPUTFILE > "$SAVEOUTPUTDIR/$save_file"
+cat $LTRACEOUTPUTFILE > "$SAVEOUTPUTDIR/$save_file"
 
 # check the result
 nmatch=`cat $LTRACEOUTPUTFILE | grep getline | wc -l`
