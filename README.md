@@ -19,7 +19,7 @@ This will run all the tests and create output log files and save them to the /lo
 
 ## Tests :computer:
 
-### [01_simple_shell_0.1 (task 3)](./01_simple_shell_0.1)
+### [01_simple_shell_0.1](./01_simple_shell_0.1) (task 3)
 
 * [bin_ls](./01_simple_shell_0.1/bin_ls) - Test simple command /bin/ls.
 * [bin_ls_extra_line](./01_simple_shell_0.1/bin_ls_extra_line) - Test bin/ls twice with a blank lin bwteen.
@@ -29,31 +29,31 @@ This will run all the tests and create output log files and save them to the /lo
 
 ### [02_simple_shell_0.1.1](./02_simple_shell_0.1.1) (task 4 #advanced)
 
-* no_getline - Check if the getline (man 3 getline) function was used by using ltrace.
+* [no_getline](./02_simple_shell_0.1.1/no_getline) - Check if the getline (man 3 getline) function was used by using ltrace.
 
 ### [03_simple_shell_0.2](./03_simple_shell_0.2) (task 5)
 
 * bin_ls_la_dir - Run ls with arguments
 * print_error - Print error message if command is not found
 
-### 04_simple_shell_0.2.1 (task 6 #advanced)
+### [04_simple_shell_0.2.1](./04_simple_shell_0.2.1) (task 6 #advanced)
 
-* no_strtok - Check if the strtok (man 3 strtok) function was used by using ltrace.
+* [no_strtok](./04_simple_shell_0.2.1/no_strtok) - Check if the strtok (man 3 strtok) function was used by using ltrace.
 
-### 05_simple_shell_0.3 (task 7)
+### [05_simple_shell_0.3](./05_simple_shell_0.3) (task 7)
 
-* bin_ls_empty_path - Empty the PATH and check if /bin/ls still works.
-* ls - Test with ls to check if the shell can find ls in the PATH.
-* ls_bin_ls - Run a mix of ls and /bin/ls many times.
-* ls_bin_ls_spaces - Run a mix of ls and /bin/ls many times, with spaces.
-* ls_current_path - Check that the PATH is checked in the right order.
-* ls_empty_path - Check also that an error message is printed to the user.
-* ls_spaces - Run ls with spaces everywhere.
+* [bin_ls_empty_path](./05_simple_shell_0.3/bin_ls_empty_path) - Empty the PATH and check if /bin/ls still works.
+* [ls](./05_simple_shell_0.3/ls) - Test with ls to check if the shell can find ls in the PATH.
+* [ls_bin_ls](./05_simple_shell_0.3/ls_bin_ls) - Run a mix of ls and /bin/ls many times.
+* [ls_bin_ls_spaces](./05_simple_shell_0.3/ls_bin_ls_spaces) - Run a mix of ls and /bin/ls many times, with spaces.
+* [ls_current_path](./05_simple_shell_0.3/ls_current_path) - Check that the PATH is checked in the right order.
+* [ls_empty_path](./05_simple_shell_0.3/ls_empty_path) - Check also that an error message is printed to the user.
+* [ls_spaces](./05_simple_shell_0.3/ls_spaces) - Run ls with spaces everywhere.
 * NEED checks for commands with arguments (ls -l) :wrench:
 
-### 06_simple_shell_0.4 (task 8)
+### [06_simple_shell_0.4](./06_simple_shell_0.4) (task 8)
 
-* exit - Check the exit built-in with no arguments. :wrench:
+* [exit](./06_simple_shell_0.4/exit) - Check the exit built-in with no arguments. :wrench:
 
 ### 07_simple_shell_0.4.1 (task 9 #advanced)
 
