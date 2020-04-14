@@ -33,8 +33,8 @@ This will run all the tests and create output log files and save them to the /lo
 
 ### [03_simple_shell_0.2](./03_simple_shell_0.2) (task 5)
 
-* bin_ls_la_dir - Run ls with arguments
-* print_error - Print error message if command is not found
+* [bin_ls_la_dir](./03_simple_shell_0.2/bin_ls_la_dir) - Run ls with arguments
+* [print_error]d/shell_test_suite/blob/master/06_simpl - Print error message if command is not found
 
 ### [04_simple_shell_0.2.1](./04_simple_shell_0.2.1) (task 6 #advanced)
 
@@ -49,21 +49,22 @@ This will run all the tests and create output log files and save them to the /lo
 * [ls_current_path](./05_simple_shell_0.3/ls_current_path) - Check that the PATH is checked in the right order.
 * [ls_empty_path](./05_simple_shell_0.3/ls_empty_path) - Check also that an error message is printed to the user.
 * [ls_spaces](./05_simple_shell_0.3/ls_spaces) - Run ls with spaces everywhere.
-* NEED checks for commands with arguments (ls -l) :wrench:
+* [ls_l](./03_simple_shell_0.2/ls_l) - Find command in the PATH and run it with arguments (ls -l)
+* [ls_la](./03_simple_shell_0.2/ls_la) - Find command in the PATH and run it with arguments (ls -la)
 
 ### [06_simple_shell_0.4](./06_simple_shell_0.4) (task 8)
 
 * [exit](./06_simple_shell_0.4/exit) - Check the exit built-in with no arguments. :wrench:
 
-### 07_simple_shell_0.4.1 (task 9 #advanced)
+### [07_simple_shell_0.4.1](./07_simple_shell_0.4.1) (task 9 #advanced)
 
 * exit_status - Check the exit built-in with an integer used to exit the shell. :wrench:
 
-### 08_simple_shell_0.4.2 (task 10 #advanced)
+### [08_simple_shell_0.4.2](./08_simple_shell_0.4.2) (task 10 #advanced)
 
 * ctrl_c - Handle Ctrl+C, the shell should not quit when user inputs ^C. :wrench:
 
-### 09_simple_shell_1.0+ (tasks 11, 12, 13, 14, 15, 16, 17, 18, 19, and 20)
+### [09_simple_shell_1.0+](./09_simple_shell_1.0) (tasks 11, 12, 13, 14, 15, 16, 17, 18, 19, and 20)
 
 * env built-in  :wrench:
 * Implement the setenv and unsetenv built-in commands  :wrench:
