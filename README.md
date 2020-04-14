@@ -18,7 +18,7 @@ This will run all the tests and create output log files and save them to the /lo
 
 ### 01_simple_shell_0.1 (task 3)
 
-* bin_ls - Test simple command /bin/ls.
+* [bin_ls](./01_simple_shell_0.1/bin_ls) - Test simple command /bin/ls.
 * bin_ls_spaces - Run /bin/ls many times, with a lot of spaces everywhere.
 * bin_ls_x3 - Run /bin/ls 3 times.
 * medium_size_input - Check if a medium size command line does not break the shell.
@@ -30,10 +30,11 @@ This will run all the tests and create output log files and save them to the /lo
 ### 03_simple_shell_0.2 (task 5)
 
 * bin_ls_la_dir - Run ls with arguments
+* print_error - Print error message if command is not found
 
 ### 04_simple_shell_0.2.1 (task 6 #advanced)
 
-* no_strtok - NEEDED
+* no_strtok - Check if the strtok (man 3 strtok) function was used by using ltrace.
 
 ### 05_simple_shell_0.3 (task 7)
 
