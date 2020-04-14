@@ -5,6 +5,9 @@ There will be no checks released before the deadline. We **strongly** encourage 
 Here is an example on how to check your shell.
 Fork this repo and add more checks to help you and the rest of the class build the best simple shell possible.
 
+## Style Guide
+https://google.github.io/styleguide/shellguide.html
+
 ## Configuration
 
 Open the file `config` and update the variable `SHELL` with your shell. Remove the hash mark (#) from beginning of the SHELL that you want to test.
