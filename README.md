@@ -19,12 +19,12 @@ This will run all the tests and create output log files and save them to the /lo
 
 ## Tests :computer:
 
-### 01_simple_shell_0.1 (task 3)
+### [01_simple_shell_0.1 (task 3)](./master/01_simple_shell_0.1)
 
 * [bin_ls](./01_simple_shell_0.1/bin_ls) - Test simple command /bin/ls.
-* bin_ls_spaces - Run /bin/ls many times, with a lot of spaces everywhere.
-* bin_ls_x3 - Run /bin/ls 3 times.
-* medium_size_input - Check if a medium size command line does not break the shell.
+* [bin_ls_spaces - Run /bin/ls many times, with a lot of spaces everywhere.](./01_simple_shell_0.1/bin_ls_spaces)
+* [bin_ls_x3 - Run /bin/ls 3 times.](./01_simple_shell_0.1/bin_ls_x3)
+* [medium_size_input - Check if a medium size command line does not break the shell.](./01_simple_shell_0.1/medium_size_input)
 
 ### 02_simple_shell_0.1.1 (task 4 #advanced)
 
