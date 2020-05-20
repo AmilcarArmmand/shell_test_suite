@@ -3,3 +3,4 @@ hsh
 config
 /logs
 .gitignore
+/test_suite
